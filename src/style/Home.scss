@@ -1,0 +1,27 @@
+@import 'index';
+
+.home {
+    background-color: $pastel-yellow-light;
+    display: flex;
+    justify-content: center;
+
+    .home-text {
+        width: 50%;
+        margin: 2rem;
+        
+        p {
+            
+            .home-line {
+                color: #bb9f00;
+                text-align: right;
+            }
+        }
+    }
+
+    .home-img {
+        img {
+            width: 70%;
+
+        }
+    }
+}

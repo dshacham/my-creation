@@ -1,0 +1,42 @@
+/* COLORS */
+$pastel-red: #ffb3ba;
+$pastel-orange: #ffdfba;
+$pastel-yellow: #ffffba;
+$pastel-yellow-light: #ffffdc;
+$pastel-green:#baffc9;
+$pastel-blue: 	#bae1ff;
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet');
+// font-family: 'Rubik', sans-serif;
+// font-family: 'Amatic SC', cursive;
+
+/* BASICS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 6rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}

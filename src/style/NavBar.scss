@@ -1,0 +1,41 @@
+@import 'index';
+
+.nav {
+    background-color: $pastel-yellow;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+
+    img {
+        margin-right: 2rem;
+        width: 6rem;
+    }
+
+    .navbar {
+        top: 1.5rem;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+
+        .nav-items {
+            #meonot, #ganim, #schools, #gallery, #contact {
+                margin: 0 1.5rem;
+                font-size: 1.2rem;
+                color: #bb9f00;
+                transition: all .1s ease-in-out;
+                width: 10%;
+                padding: 0.5rem;
+            }
+            #meonot:hover, #ganim:hover, #schools:hover, #gallery:hover, #contact:hover {
+                // font-size: 1.2rem;
+                // transform: scale(1.08);
+                // z-index: 2;
+                border-bottom: 0.1rem solid #bb9f00;
+            }
+        }
+        
+        .selected {
+            border-bottom: 0.1rem solid #bb9f00;
+        }
+    }
+}
