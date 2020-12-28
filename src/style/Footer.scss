@@ -1,0 +1,84 @@
+@import 'index';
+
+.footer-desk {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: $pastel-yellow;
+    // box-shadow: inset 0 1px 5px $mid-light-blue;
+    color: #bb9f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    .footer-section-desk {
+        border-left: 1px solid $pastel-yellow-light;
+        border-left-style: dotted;
+        text-align: center;
+        padding: 0 2vw;
+        display: flex;
+        flex-direction: column;
+
+        .section-title-desk, .section-contact-desk {
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        li {
+            font-size: 0.7rem;
+            margin: 0.25rem 0;
+        }
+        a {
+            color: #bb9f00;;
+        }
+        .icon-desk {
+            font-size: 1.7rem;
+        }
+        .tel {
+            font-size: 0.8rem;
+            margin: 0.5rem 0;
+        }
+        .hoogim {
+            font-size: 0.8rem;
+        }
+        .credit1 {
+            font-size: 0.9rem;
+        }
+
+        .credit2 {
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .credits {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-section-desk:last-of-type {
+        border-left: hidden;
+        li {
+            display: flex;
+            align-items: center;
+            p {
+                margin-right: 0.5rem;
+            }
+        }
+        .section-contact-desk {
+            justify-content: center;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 850px) {
+    .footer-desk {
+        .footer-section-desk {
+            padding: 0 4vw;
+        }
+    }
+}

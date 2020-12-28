@@ -38,6 +38,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
           </Switch>
+          <Footer />
           {/* {winWidth === 'desktop' ?
             <Footer />
             :

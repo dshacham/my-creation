@@ -4,24 +4,38 @@
     background-color: $pastel-yellow-light;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
 
     .home-text {
-        width: 50%;
-        margin: 2rem;
+        width: 40%;
+        // margin-top: 2rem;
+        padding: 0 2rem;
+        background-color: #fff7cc;
+        border-radius: 0.2rem;
+        box-shadow: 1px 1px 3px #5f5b33a6;
         
         p {
-            
+            padding: 2rem 0;
             .home-line {
                 color: #bb9f00;
-                text-align: right;
+                font-weight: bold;
+                font-size: 1.1rem;
             }
         }
+        // p:first-of-type {
+        //     padding-top: 1rem;
+        // }
+        // p:last-of-type {
+        //     padding-bottom: 1rem;
+        // }
     }
 
     .home-img {
+        margin: 2rem;
         img {
-            width: 70%;
-
+            width: 35rem;
+            border-radius: 0.2rem;
         }
     }
 }
