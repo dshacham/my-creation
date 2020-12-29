@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     height: 3rem;
+    box-shadow: inset 1px 1px 4px rgba(66, 64, 34, 0.651);
 
     img {
         margin-right: 2rem;
@@ -16,26 +17,113 @@
         width: 80%;
         display: flex;
         justify-content: space-around;
+        padding-bottom: 0.5rem;
 
         .nav-items {
-            #meonot, #ganim, #schools, #gallery, #contact {
+            .nav-item {
                 margin: 0 1.5rem;
                 font-size: 1.1rem;
                 color: #bb9f00;
                 transition: all .1s ease-in-out;
                 width: 10%;
-                padding: 0.5rem;
+                padding: 0.3rem 0.5rem;
+                border-bottom: 0.1rem solid #bb9f0081;
             }
-            #meonot:hover, #ganim:hover, #schools:hover, #gallery:hover, #contact:hover {
-                // font-size: 1.2rem;
-                // transform: scale(1.08);
-                // z-index: 2;
+            .nav-item:hover {
                 border-bottom: 0.1rem solid #bb9f00;
             }
         }
+    }
+}
+
+.nav-blue {
+    background-color: $pastel-blue;
+
+    .navbar {
+        .nav-items {
+            .nav-item {
+                color: #4eb2ff;
+                border-bottom: 0.1rem solid #74c3ff8e;
+            }
+            .nav-item:hover {
+                border-bottom: 0.1rem solid #4eb2ff;
+            }
+            .selected {
+                border-bottom: 0.1rem solid #4eb2ff;
+            }
+        }
         
-        .selected {
-            border-bottom: 0.1rem solid #bb9f00;
+    }
+}
+
+.nav-green {
+    background-color: $pastel-green;
+    .navbar {
+        .nav-items {
+            .nav-item {
+                color: #00cc2c;
+                border-bottom: 0.1rem solid #00cc2c56;
+            }
+            .nav-item:hover {
+                border-bottom: 0.1rem solid #00cc2c;
+            }
+            .selected {
+                border-bottom: 0.1rem solid #00cc2c;
+            }
+        }
+    }
+}
+
+.nav-red {
+    background-color: $pastel-red;
+    .navbar {
+        .nav-items {
+            .nav-item {
+                color: #ff4b5d;
+                border-bottom: 0.1rem solid #ff4b5d73;
+            }
+            .nav-item:hover {
+                border-bottom: 0.1rem solid #ff4b5d;
+            }
+            .selected {
+                border-bottom: 0.1rem solid #ff4b5d;
+            }
+        }
+    }
+}
+
+.nav-purple {
+    background-color: $pastel-purple;
+    .navbar {
+        .nav-items {
+            .nav-item {
+                color: #8644ff;
+                border-bottom: 0.1rem solid #8644ff5e;
+            }
+            .nav-item:hover {
+                border-bottom: 0.1rem solid #8644ff;
+            }
+            .selected {
+                border-bottom: 0.1rem solid #8644ff;
+            }
+        }
+    }
+}
+
+.nav-orange {
+    background-color: $pastel-orange;
+    .navbar {
+        .nav-items {
+            .nav-item {
+                color: #ff9d2c;
+                border-bottom: 0.1rem solid #ff9d2c65;
+            }
+            .nav-item:hover {
+                border-bottom: 0.1rem solid #ff9d2c;
+            }
+            .selected {
+                border-bottom: 0.1rem solid #ff9d2c;
+            }
         }
     }
 }

@@ -7,10 +7,10 @@ import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import Context from './Context';
 
 const Footer = () => {
-    const { setNavClass } = useContext(Context);
+    const { navClass, setNavClass } = useContext(Context);
 
     return (
-        <div className="footer-desk">
+        <div className={navClass === "/meonot" ? "footer-desk footer-blue" : navClass === "/ganim" ? "footer-desk footer-green" : navClass === "/schools" ? "footer-desk footer-red" : navClass === "/gallery" ? "footer-desk footer-purple" : navClass === "/contact" ? "footer-desk footer-orange" : "footer-desk"}>
             <ul className="footer-section-desk">
                 <li className="hoogim">
                     <Link to="meonot">חוגים למעונות</Link>
