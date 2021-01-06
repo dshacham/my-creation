@@ -1,0 +1,47 @@
+@import 'index';
+
+.meonot {
+    background-color: $pastel-blue-light;
+    color: #23a0ff;
+    padding-bottom: 3rem;
+    text-align: center;
+    width: 100%;
+
+    .meonot-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 3rem;
+            text-shadow: 0 0 3px #22deff;
+            padding: 2rem;
+        }
+        
+        .hoog-info {
+            width: 25%;
+            margin-bottom: 2rem;
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            span {
+                padding: 0.1rem;
+                border: 0.1rem solid #23a0ff6e;
+            }
+        }
+    }
+    .sipur-imgs {
+        display: flex;
+        justify-content: center;
+        
+        img {
+            width: 30vw;
+            margin: 1rem;
+            border-radius: 0.2rem;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.623);
+        }
+    }
+}

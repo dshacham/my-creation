@@ -42,14 +42,14 @@
     .navbar {
         .nav-items {
             .nav-item {
-                color: #4eb2ff;
+                color: $pastel-blue-text;
                 border-bottom: 0.1rem solid #74c3ff8e;
             }
             .nav-item:hover {
-                border-bottom: 0.1rem solid #4eb2ff;
+                border-bottom: 0.1rem solid $pastel-blue-text;
             }
             .selected {
-                border-bottom: 0.1rem solid #4eb2ff;
+                border-bottom: 0.1rem solid $pastel-blue-text;
             }
         }
         
@@ -61,14 +61,14 @@
     .navbar {
         .nav-items {
             .nav-item {
-                color: #00cc2c;
+                color: $pastel-green-text;
                 border-bottom: 0.1rem solid #00cc2c56;
             }
             .nav-item:hover {
-                border-bottom: 0.1rem solid #00cc2c;
+                border-bottom: 0.1rem solid $pastel-green-text;
             }
             .selected {
-                border-bottom: 0.1rem solid #00cc2c;
+                border-bottom: 0.1rem solid $pastel-green-text;
             }
         }
     }
@@ -79,14 +79,14 @@
     .navbar {
         .nav-items {
             .nav-item {
-                color: #ff4b5d;
+                color: $pastel-red-text;
                 border-bottom: 0.1rem solid #ff4b5d73;
             }
             .nav-item:hover {
-                border-bottom: 0.1rem solid #ff4b5d;
+                border-bottom: 0.1rem solid $pastel-red-text;
             }
             .selected {
-                border-bottom: 0.1rem solid #ff4b5d;
+                border-bottom: 0.1rem solid $pastel-red-text;
             }
         }
     }
@@ -97,14 +97,14 @@
     .navbar {
         .nav-items {
             .nav-item {
-                color: #8644ff;
+                color: $pastel-purple-text;
                 border-bottom: 0.1rem solid #8644ff5e;
             }
             .nav-item:hover {
-                border-bottom: 0.1rem solid #8644ff;
+                border-bottom: 0.1rem solid $pastel-purple-text;
             }
             .selected {
-                border-bottom: 0.1rem solid #8644ff;
+                border-bottom: 0.1rem solid $pastel-purple-text;
             }
         }
     }
@@ -115,14 +115,14 @@
     .navbar {
         .nav-items {
             .nav-item {
-                color: #ff9d2c;
+                color: $pastel-orange-text;
                 border-bottom: 0.1rem solid #ff9d2c65;
             }
             .nav-item:hover {
-                border-bottom: 0.1rem solid #ff9d2c;
+                border-bottom: 0.1rem solid $pastel-orange-text;
             }
             .selected {
-                border-bottom: 0.1rem solid #ff9d2c;
+                border-bottom: 0.1rem solid $pastel-orange-text;
             }
         }
     }

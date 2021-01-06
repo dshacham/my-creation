@@ -1,0 +1,41 @@
+@import 'index';
+
+.contact {
+    background-color: $pastel-orange-light;
+    color: #ff8f0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+
+    h3 {
+        font-size: 3rem;
+        text-shadow: 0 0 3px #ff6070;
+        padding: 2rem;
+    }
+
+    .info-img {
+        display: flex;
+        justify-content: space-between;
+
+        .info {
+            margin: 1rem 4rem;
+            li {
+                margin: 2rem 0;
+            }
+            li a {
+                color: #ff8f0f;
+            }
+            li .icon {
+                font-size: 2.5rem;
+                margin: 0 1rem;
+            }
+        }
+
+        img {
+            width: 27vw;
+            margin: 2rem 0;
+        }
+    }
+}
